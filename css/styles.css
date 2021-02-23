@@ -1,0 +1,182 @@
+/*************CLASS SELECTORS*************/
+#title .container-fluid {
+  padding: 3% 14% 7%;
+  text-align: left;
+}
+
+#experience .container-fluid {
+  padding: 3% 14% 7%;
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 7% 14%;
+}
+
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.attitude-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.attitude-title {
+  font-size: 1.5rem;
+}
+
+.icon {
+  color: #30475e;
+  margin-bottom: 1.5rem;
+}
+
+.icon:hover {
+  color: #f05454;
+}
+
+.skill-img {
+  border-radius: 100%;
+  width: 15%;
+  margin: 20px;
+}
+
+.skill-subheading {
+  font-size: 1rem;
+  color: #30475e;
+}
+
+.skill-text {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+
+.section-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.social-icon {
+  font-size: 2rem;
+  margin: 20px 15px;
+}
+
+/*************SECTIONS*************/
+.colored-section {
+  background-color: #dddddd;
+  color: #222831;
+}
+
+.white-section {
+  background-color: #ffff;
+}
+/*************ID SELECTORS*************/
+#attitudes {
+  position: relative;
+}
+
+
+/*************EXPERIENCE SECTION*************/
+#experience {
+  padding: 100px;
+}
+
+.experts-img {
+  width: 70%;
+  position: absolute;
+  left: 20%;
+}
+
+.experience-text {
+  line-height: 2;
+  padding-bottom: 20px;
+}
+
+/*************TAG SELECTORS*************/
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/*************NAVIGATION BAR*************/
+.navbar {
+  padding: 1rem 0 2rem 2rem;;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+  text-align: right;
+}
+
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/*************DOWNLOAD BUTTON*************/
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+
+/*************FOOTER SECTION*************/
+#footer {
+  padding: 3% 15%;
+}
+
+.viber-chat {
+  color: #845ec2;
+}
+
+.gmail-mail {
+  color: #aa2b1d;
+}
+/*************TITLE IMAGE*************/
+.title-image {
+  border-radius: 100%;
+  width: 48%;
+  position: absolute;
+  right: 30%;
+}
+
+@media (max-width: 1030px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: relative;
+    top: 2%;
+    left: 28%;
+
+  }
+
+  .experts-img {
+    position: relative;
+    left: 28%;
+    bottom: 20px;
+  }
+}
