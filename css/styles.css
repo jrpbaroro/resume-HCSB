@@ -13,6 +13,10 @@
   padding: 7% 15%;
 }
 
+.back:hover {
+  color: #30475e;
+}
+
 .big-heading {
   font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
@@ -135,7 +139,7 @@ p {
 
 .navbar-brand {
   font-family: 'Ubuntu', sans-serif;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 
@@ -168,10 +172,32 @@ p {
 .gmail-mail {
   color: #aa2b1d;
 }
+
+/*************GRADES SECTION*************/
+#grades .container-fluid {
+  padding: 5% 8%;
+}
+.my-grades {
+  width: 110%;
+}
+
+.grade-smallheading {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #dddddd;
+  background-color: #30475e;
+  width: 700px;
+}
+
+.grade-mediumheading {
+  font-size: 1.3rem;
+  line-height: 2;
+}
 /*************TITLE IMAGE*************/
 .title-image {
   border-radius: 100%;
-  width: 48%;
+  width: 45%;
   position: absolute;
   right: 30%;
 }
@@ -196,8 +222,22 @@ p {
     position: relative;
     top: 5%;
   }
+
   .roles-respon {
     padding-top: 10%;
+  }
+
+  .my-grades {
+    width: 100%;
+  }
+
+  .grade-smallheading {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #dddddd;
+    background-color: #30475e;
+    width: 810px;
   }
 }
 
