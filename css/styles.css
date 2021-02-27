@@ -216,11 +216,11 @@ p {
 }
 
 .cert-img {
-  width: 70%;
+  width: 67%;
 }
 
 #my-certificates .container-fluid {
-  padding: 2% 0 8%;
+  padding: 2% 0 6%;
 }
 
 #my-certificates .carousel-control-next-icon {
@@ -239,7 +239,6 @@ p {
 #cert-carousel .carousel-indicators .active {
   background-color: #444;
 }
-
 /*************TITLE IMAGE*************/
 .title-image {
   border-radius: 100%;
