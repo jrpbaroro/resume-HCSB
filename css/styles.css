@@ -1,1 +1,310 @@
-#title .container-fluid{padding:3% 15% 7%;text-align:left}#experience .container-fluid{padding:3% 15% 7%;text-align:left}.container-fluid{padding:7% 15%}.back{color:#30475e}.back:hover{color:#f05454}.big-heading{font-family:'Montserrat',sans-serif;font-size:3rem;line-height:1.5;font-weight:900}.medium-heading{font-family:'Montserrat',sans-serif;font-weight:700;text-align:justify}.small-heading{text-align:center;padding-bottom:20px}.attitude-box{text-align:center;padding:5%}.attitude-title{font-size:1.5rem}.icon{color:#30475e;margin-bottom:1.5rem}.icon:hover{color:#f05454}.skill-img{border-radius:100%;width:15%;margin:20px}.skill-subheading{font-size:1rem;color:#30475e}.skill-text{font-size:2rem;line-height:1.5}.section-heading{font-family:'Montserrat',sans-serif;font-size:2rem;font-weight:900;line-height:1.5}.social-icon{font-size:2rem;margin:20px 15px}.colored-section{background-color:#ddd;color:#222831}.white-section{background-color:#fff}#attitudes{position:relative}#experience{padding:100px}.experts-img{width:70%;position:absolute;left:20%}.experience-text{color:#8f8f8f;line-height:2;padding-bottom:20px}body{font-family:'Montserrat',sans-serif;font-weight:400;text-align:center}h1,h2,h3,h4,h5,h6{font-family:'Montserrat',sans-serif;font-weight:700}p{color:#8f8f8f}.navbar{padding:1rem 0 2rem 2rem;}.navbar-brand{font-family:'Ubuntu',sans-serif;font-size:2rem;font-weight:700}.nav-item{padding:0 18px;text-align:left}.nav-link{font-family:'Montserrat',sans-serif;font-size:1.2rem;font-weight:300}.download-button{margin:5% 3% 5% 0}#footer{padding:3% 15%}.viber-chat{color:#845ec2}.gmail-mail{color:#aa2b1d}#grades .container-fluid{padding:5% 8%}.my-grades{width:110%}.grade-smallheading{font-family:'Ubuntu',sans-serif;font-size:1.5rem;font-weight:700;color:#ddd;background-color:#30475e;width:700px}.grade-mediumheading{font-size:1.3rem;line-height:2}.certificate-column{padding:5% 2%}.certificate-text{color:#30475e;font-size:2.5rem;line-height:1.5}.certificate-text:hover{color:#f05454}.cert-img{width:67%}#my-certificates .container-fluid{padding:2% 0 6%}#my-certificates .carousel-control-next-icon{background-image:url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E")}#my-certificates .carousel-control-prev-icon{background-image:url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E")}#cert-carousel .carousel-indicators li{background-color:#fff;background-color:rgba(70,70,70,.25)}#cert-carousel .carousel-indicators .active{background-color:#444}.title-image{border-radius:100%;width:45%;position:absolute;right:30%}@media (max-width:1260px){.medium-heading{text-align:left}.title-image{position:relative;top:25%;left:40%;width:70%}}@media (max-width:991px){.experts-img{position:relative;top:5%}.roles-respon{padding-top:10%}.my-grades{width:100%}.grade-smallheading{font-family:'Ubuntu',sans-serif;font-size:1.2rem;font-weight:700;color:#ddd;background-color:#30475e;width:810px}}@media (max-width:770px){.medium-heading{text-align:left}.title-image{position:relative;top:3%;left:28%;width:50%}}
+/*************CLASS SELECTORS*************/
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+#experience .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.back {
+  color: #30475e;
+}
+
+.back:hover {
+  color: #f05454;
+}
+
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.medium-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-align: justify;
+}
+
+.small-heading {
+  text-align: center;
+  padding-bottom: 20px;
+
+}
+
+.attitude-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.attitude-title {
+  font-size: 1.5rem;
+}
+
+.icon {
+  color: #30475e;
+  margin-bottom: 1.5rem;
+}
+
+.icon:hover {
+  color: #f05454;
+}
+
+.skill-img {
+  border-radius: 100%;
+  width: 15%;
+  margin: 20px;
+}
+
+.skill-subheading {
+  font-size: 1rem;
+  color: #30475e;
+}
+
+.skill-text {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+
+.section-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.social-icon {
+  font-size: 2rem;
+  margin: 20px 15px;
+}
+
+
+/*************SECTIONS*************/
+.colored-section {
+  background-color: #dddddd;
+  color: #222831;
+}
+
+.white-section {
+  background-color: #ffff;
+}
+/*************ID SELECTORS*************/
+#attitudes {
+  position: relative;
+}
+
+
+/*************EXPERIENCE SECTION*************/
+#experience {
+  padding: 100px;
+}
+
+.experts-img {
+  width: 70%;
+  position: absolute;
+  left: 20%;
+}
+
+.experience-text {
+  color: #8f8f8f;
+  line-height: 2;
+  padding-bottom: 20px;
+}
+
+
+/*************TAG SELECTORS*************/
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/*************NAVIGATION BAR*************/
+.navbar {
+  padding: 1rem 0 2rem 2rem;;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar-collapse {
+  padding-right: 2.1876rem;
+}
+
+.navbar-toggler{
+  margin-right: 1.875rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+  text-align: left;
+}
+
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/*************DOWNLOAD BUTTON*************/
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+
+/*************FOOTER SECTION*************/
+#footer {
+  padding: 3% 15%;
+}
+
+.viber-chat {
+  color: #845ec2;
+}
+
+.gmail-mail {
+  color: #aa2b1d;
+}
+
+/*************GRADES SECTION*************/
+#grades .container-fluid {
+  padding: 5% 8%;
+}
+.my-grades {
+  width: 110%;
+}
+
+.grade-smallheading {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #dddddd;
+  background-color: #30475e;
+  width: 700px;
+}
+
+.grade-mediumheading {
+  font-size: 1.3rem;
+  line-height: 2;
+}
+
+/*************CERTIFICATE SECTION*************/
+.certificate-column {
+  padding: 5% 2%;
+}
+
+.certificate-text {
+  color: #30475e;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.certificate-text:hover {
+  color: #f05454;
+}
+
+.cert-img {
+  width: 67%;
+}
+
+#my-certificates .container-fluid {
+  padding: 2% 0 6%;
+}
+
+#my-certificates .carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+#my-certificates .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+#cert-carousel .carousel-indicators li {
+  background-color: #fff;
+  background-color: rgba(70,70,70,.25);
+}
+
+#cert-carousel .carousel-indicators .active {
+  background-color: #444;
+}
+
+/*************TITLE IMAGE*************/
+.title-image {
+  border-radius: 100%;
+  width: 45%;
+  position: absolute;
+  right: 30%;
+}
+
+ @media (max-width: 1260px) {
+  .medium-heading {
+    text-align: left;
+  }
+
+  .title-image {
+    position: relative;
+    top: 25%;
+    left: 40%;
+    width: 70%;
+
+  }
+
+}
+
+@media (max-width: 991px) {
+  .experts-img {
+    position: relative;
+    top: 5%;
+  }
+
+  .roles-respon {
+    padding-top: 10%;
+  }
+
+  .my-grades {
+    width: 100%;
+  }
+
+  .grade-smallheading {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #dddddd;
+    background-color: #30475e;
+    width: 810px;
+  }
+}
+
+@media (max-width: 770px)  {
+  .medium-heading {
+    text-align: left;
+  }
+
+  .title-image {
+    position: relative;
+    top: 3%;
+    left: 28%;
+    width: 50%;
+
+  }
+}
